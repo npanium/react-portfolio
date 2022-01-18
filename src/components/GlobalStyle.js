@@ -27,7 +27,8 @@ const GlobalStyle = createGlobalStyle`
             background-color: #23d997;
             color: white;
         }
-    }h2{
+    }
+    h2{
         font-weight: lighter;
         font-size: 4rem;
     }
@@ -37,6 +38,7 @@ const GlobalStyle = createGlobalStyle`
     }
     h4{
         font-weight: bold;
+        font-size: 2rem;
         
     }
     a{
