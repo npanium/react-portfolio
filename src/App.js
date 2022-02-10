@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<AboutUs />} />
           <Route path="work" element={<OurWork />} />
           <Route path="work/:id" element={<MovieDetail />} />
-          <Route path="contact/*" element={<ContactUs />} />
+          <Route path="contact" element={<ContactUs />} />
         </Routes>
       </AnimatePresence>
     </div>
